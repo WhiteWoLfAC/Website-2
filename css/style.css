@@ -137,34 +137,6 @@ header {
 
 }
 
-.spin {
-    animation: spin 1.5s linear infinite;
-}
-
-@keyframes spin {
-    100% {
-        transform: rotate(-360deg);
-    }
-}
-
-@keyframes bounceDown {
-    0% {
-        transform: translateY(0);
-    }
-
-    40% {
-        transform: translateY(20px);
-    }
-
-    60% {
-        transform: translateY(20px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
 .about-head-section {
     margin: 70px 0;
 
@@ -416,6 +388,9 @@ header {
     color: var(--icon-color);
 }
 
+.services-section-2 h3:hover::before {
+    color: rgb(255, 0, 0);
+}
 .services-section-3 h3::before {
     content: "\f5ae";
     display: inline-block;
