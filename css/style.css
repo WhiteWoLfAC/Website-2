@@ -530,15 +530,11 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
 }
 
 .portfolio-section-head h2::before {
     content: "";
-    background-color: var(--main-color);
+    background-color: var(--icon-color);
     width: 80px;
     height: 4px;
     position: absolute;
@@ -547,53 +543,197 @@ header {
     transform: translateX(-50%);
 
 }
-.nav-pills .nav-link{
+
+.nav-pills .nav-link {
     color: #555 !important;
     font-size: 18px !important;
     transition: 0.2s all;
-    -webkit-transition: 0.2s all;
-    -moz-transition: 0.2s all;
-    -ms-transition: 0.2s all;
-    -o-transition: 0.2s all;
+
 }
-.nav-pills .nav-link.active{
+
+.nav-pills .nav-link.active {
     background-color: unset !important;
-    color: var(--main-color) !important;
-    text-decoration: underline var(--main-color) !important;
+    color: var(--icon-color) !important;
+    text-decoration: underline var(--icon-color) !important;
 }
-.nav-pills .nav-link:hover{
-    color: var(--main-color) !important;
+
+.nav-pills .nav-link:hover {
+    color: var(--icon-color) !important;
 }
-.port-image .layer{
+
+.port-image .layer {
     opacity: 0 !important;
     transition: 0.2s all;
-    -webkit-transition: 0.2s all;
-    -moz-transition: 0.2s all;
-    -ms-transition: 0.2s all;
-    -o-transition: 0.2s all;
+
 }
-.port-image{
+
+.port-image {
     overflow: hidden;
 }
-.port-image .layer:hover{
+
+.port-image .layer:hover {
     opacity: 0.75 !important;
     overflow: hidden !important;
-   
+
 }
-.port-image:hover img{
+
+.port-image:hover img {
+    transition: 0.2s all;
+
+}
+
+.port-image:hover img {
+    transform: scale(1.1);
+
+}
+
+.client-section-head h2::after {
+    content: "TESTIMONIAL";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.client-section-head h2::before {
+    content: "";
+    background-color: var(--active-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #555 !important;
     transition: 0.2s all;
     -webkit-transition: 0.2s all;
     -moz-transition: 0.2s all;
     -ms-transition: 0.2s all;
     -o-transition: 0.2s all;
 }
-.port-image:hover img{
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+
+.carousel-indicators [data-bs-target].active {
+    background-color: var(--active-color) !important;
+
 }
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: var(--active-color) !important;
+}
+
+.clint-opnion-body p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.client-opnion-txt p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+.contact-section-head h2::after {
+    content: "CONTACT";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.contact-section-head h2::before {
+    content: "";
+    background-color: var(--active-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.Address p {
+    color: #555;
+    font-size: 18px;
+}
+
+.Address p i {
+    color: var(--active-color);
+    margin-right: 20px;
+}
+
+.notes button {
+    border: none !important;
+    font-size: 20px !important;
+    padding: 15px !important;
+    color: white !important;
+    background-color: var(--active-color) !important;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+
+.notes button:hover {
+    background-color: #054737 !important;
+}
+
+.footer p {
+    font-size: 20px;
+    color: #555;
+}
+
+footer p a {
+    color: var(--active-color);
+}
+
+footer p a:hover {
+    color: #054737 !important;
+
+}
+
+footer li a {
+    color: #555;
+    font-size: 20px;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+
+footer li a:hover {
+    color: var(--active-color) !important;
+}
+
+
+
+
 
 
 @media (max-width:507px) {
